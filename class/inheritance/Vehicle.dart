@@ -13,7 +13,7 @@ class Vehicle {
 // Vehical(this.color, this.tyres)
 
   // methods of class
-  // void printDetails() {
-  //   print("The vehical is $color color and has $tyres tyres.");
-  // }
+  void printDetails() {
+    print("The vehical is $color color and has $tyres tyres.");
+  }
 }

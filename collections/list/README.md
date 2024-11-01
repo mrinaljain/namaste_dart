@@ -11,3 +11,40 @@ List<String> names = const [ "JAck", "Jill"];
 - staticaly typed is also possible
 
 
+Generics 
+: Generics is used to define type  of the Item.
+
+### List methods
+```
+List<String> students = ["Ram", "shyam"]
+```
+
+students.add
+: Allows us to add a new value.
+```
+
+```
+
+students.insert
+: takes index alongside the new value
+```
+```
+
+students.remove
+: removes a particular item from list.
+```
+```
+
+students.where
+: accepts a ananomous function and filters the students matching thr filter condition.
+returns a iterable
+```
+```
+
+students. reversed
+: returns iterable
+
+students.iisEmpty
+
+ students.contains
+ : checks if an element is present or not

@@ -1,6 +1,9 @@
+import '../../class/static/Country.dart';
+
 void main(List<String> args) {
-  // statically defined List
+  // Static-ally defined List
   List<String> names = ['Jack', 'Jill', "mohan"];
+  List<Country> countries = [Country("naman", "nm", 91)];
 
   // automatic type inference
 

@@ -3,8 +3,10 @@
 Implements  "is-a" relationship between two Class.
 
 ## Writing basic Inheritance
-- super
+super
+: Super reffers to the parent class of the current class
 ```
+ClassName(this.name, this.age): super(this.city)
 ```
 
 ## Benifets of Inheritance

@@ -26,5 +26,5 @@ void main() {
     tyres: 4,
   );
 
-  (car2 as Car).printDetails();
+  // (car2 as Car).printDetails();
 }

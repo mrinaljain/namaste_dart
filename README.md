@@ -1,3 +1,5 @@
+# DART
+
 - Object oriented Programing lamguage
 - Every dart program starts ith a main function
 - 2 type of compilation happens
@@ -24,10 +26,26 @@ var name = "Mrinal";
    - bool
    - dynamic
 
+# TODO
 
-- Abstract Class
 - Concrete implementation of abstract class
+- Pillars of OOPS
+   - Inheritance
+      - Extend
+      - Implement
+   - Abstraction ()
+      - Abstract Class
+   - Polymorphism (many forms)
+      - Methode Overloading
+      - Method Overriding
+   - Encapsulation (using getter setter)
+      - private var
 - nullable 
 - non-nullable
 - runtime type
 - optional variables
+- class modifiers
+   - sealed class
+   - final class
+
+- Generics
