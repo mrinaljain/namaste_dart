@@ -50,3 +50,8 @@ method overriding
 @override
 
 - getter setter
+
+
+use it when no need of initilizing the class
+- static function
+- static variable

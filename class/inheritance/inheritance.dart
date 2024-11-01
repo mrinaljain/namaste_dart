@@ -1,8 +1,8 @@
 import 'car.dart';
-import 'vehical.dart';
+import 'Vehicle.dart';
 
 void main() {
-  var vehical1 = Vehical("red", 4);
+  var vehical1 = Vehicle("red", 4);
   var car1 = Car(
     hasSunroof: true,
     isElectric: true,
@@ -13,7 +13,18 @@ void main() {
   car1.color = "Pink"; // updating property of a class
 
   car1.printDetails();
-  vehical1.printDetails();
+  // vehical1.printDetails();
+// accessing static variable
+  print(Vehicle.working);
 
-  print(Vehical.working);
+  // as keyword
+
+  Vehicle car2 = Car(
+    hasSunroof: false,
+    isElectric: false,
+    color: "pink",
+    tyres: 4,
+  );
+
+  (car2 as Car).printDetails();
 }

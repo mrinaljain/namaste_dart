@@ -1,6 +1,6 @@
-import 'vehical.dart';
+import 'Vehicle.dart';
 
-class Car extends Vehical {
+class Car extends Vehicle {
   late bool hasSunroof;
   late bool isElectric;
 
@@ -14,7 +14,7 @@ class Car extends Vehical {
     this.isElectric = isElectric;
   }
 
-  @override
+  // @override
   void printDetails() {
     super.printDetails();
   }
