@@ -10,9 +10,13 @@ SET
 
 - set has both type inference and ststicaly typed .
 
-MAP
-: Collection of key value pairs of items.
 
+
+### converting list to set
+This will remove all repeating elements
+```
+list.toSet()
+```
 
 
 

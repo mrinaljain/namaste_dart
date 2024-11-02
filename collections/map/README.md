@@ -3,12 +3,20 @@
 Used to store Key value pairs
 - can store in any order
 - can store multiple keys
+- key needs to be unique
 
 - empty map
+
 ```
 var gifts = Map();
 ```
 
+
+```
+Map<String, int> students = {
+   'rivan': 10
+}
+```
 
 
 ## Diffrent types of MAP
@@ -16,6 +24,22 @@ var gifts = Map();
 1. Basic Map
 2. HashMap
 
+## Operations on Map
+
+map.addAll
+: add multiple items
+
+### Iterating over map
+map.keys
+: returns an iterable.
+
+map.values
+: returns an iterable.
+
+
+map.map
+
+map.forEach((key , value){})
 ### Questions
 
 1. What is diffrence between Maps and HashMaps ?
