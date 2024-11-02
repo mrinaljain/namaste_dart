@@ -19,6 +19,11 @@ Generics
 List<String> students = ["Ram", "shyam"]
 ```
 
+students.map()
+: map returns an iterable
+```
+```
+
 students.add
 : Allows us to add a new value.
 ```

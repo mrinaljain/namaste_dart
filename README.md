@@ -49,3 +49,6 @@ var name = "Mrinal";
    - final class
 
 - Generics
+- map method
+
+- If case in dart

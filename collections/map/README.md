@@ -26,20 +26,44 @@ Map<String, int> students = {
 
 ## Operations on Map
 
-map.addAll
-: add multiple items
+- Adding values to map
+```
+map.addAll({key: value, key:value})
+map['key'] = value;
+map.key = value;
+```
 
-### Iterating over map
+- removing items
+```
+map.remove(key);
+```
+
+
+
+
+
+## Iterating over map
 map.keys
-: returns an iterable.
+: returns an iterable including keys
 
 map.values
-: returns an iterable.
+: returns an iterable including values
 
-
-map.map
+map.entries
+ : returns an iterable of entries
 
 map.forEach((key , value){})
+: for loop automatically  gives you key , value pair
+
+
+### List of Maps
+```
+List<Map<String , int>>  marks= [ 
+   {
+"english"
+}, {}, {} ] 
+``` 
+
 ### Questions
 
 1. What is diffrence between Maps and HashMaps ?
