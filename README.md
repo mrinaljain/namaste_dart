@@ -52,3 +52,21 @@ var name = "Mrinal";
 - map method
 
 - If case in dart
+
+### Questions
+
+1. When would you use profile mode in Flutter?
+
+2. When would you use release mode in Flutter?
+
+3. Diffrent types of animation in Flutter.
+
+4. Talk about Mixin?
+
+5. Dart supports multiple inheretance? if not are there any alternatives?
+
+6. Basic state management in flutter.
+
+7. SOLID principle inside Flutter.
+
+8. Why do we use provider over BlOC/ riverpod etc ?
